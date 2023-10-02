@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+*::after,
+*::before { box-sizing: border-box;}
+
+main{
+    background-color: #93B5C9;
+    height: 300px;
+}
+nav{
+    background-color: #AB2849;
+    height: 600px;
+}
+.caja1{
+    background-color: #AB2849;
+    height: 300px;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25%;
+
+    }
+div > *{ 
+    flex-basis: 25%;
+}
+
+div{
+    
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+section{ 
+    background-color: #AB2849;
+    height: 300px;
+    width: 25%;
+    margin: 0 10px 0 0;
+    
+}
+footer{
+    background-color: #AB2849;
+    height: 300px;
+    margin-top: 20px;
+
+}
